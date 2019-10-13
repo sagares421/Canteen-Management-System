@@ -1,0 +1,18 @@
+{
+    "name": "Staging",
+    "port": 4000,
+    "db": {
+        "url": "mongodb://localhost:27017/canteen"
+    },
+    "secret":{
+        "web": "W40axuChuP2xrdjDzKuiW3TBZnH1IkWQ"
+    },
+    "mail":{
+        "host": "mail.a1technology.com",
+        "pool" : true,
+        "port" : 25,
+        "secure" : false,
+        "email": "sharp_support@a1technology.com",
+        "password": "Winter@2018"
+    }
+}
